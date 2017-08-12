@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("../Images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    margin: auto;
+    width: 670px;
+    height: 780px;
+/*    background: red;*/
+    display: flex;
+    flex-direction: column;
+    
+}
+.head {
+    height: 258px;
+    width: 670px;
+/*    background: blue;*/
+    display: flex;
+    flex-direction: column;
+}
+.head-first {
+    height: 80px;
+    width: 670px;
+/*    background: grey;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 12px;
+}
+
+.first-logo {
+    width: 162px;
+    height: 35px;
+/*    background: green*/
+}
+.logo-text-big {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: white;
+    line-height: 2px;
+}
+.width {
+    font-weight: bold;
+}
+.logo-text-small {
+    text-transform: uppercase;
+    font-size: 11px;
+    color: white;
+    line-height: 2px;
+}
+
+.first-social {
+    width: 100px;
+    height: 19px;
+/*    background: green;*/
+    display: flex;
+    flex-direction: row;
+}
+.linknin {
+    width: 18px;
+    height: 18px;
+    background: url("../Images/linkedin.png");
+    background-size: cover;
+    border-radius: 2px;
+    display: inline-block;
+    margin-right: 3px;
+}
+.myspace {
+    width: 18px;
+    height: 18px;
+    background: url("../Images/myspace.png");
+    background-size: cover;
+    border-radius: 2px;
+    display: inline-block;
+    margin-right: 3px;
+}
+.facebook {
+    width: 18px;
+    height: 18px;
+    background: url("../Images/facebook.png");
+    background-size: cover;
+    border-radius: 2px;
+    display: inline-block;
+    margin-right: 3px;
+}
+.twiter {
+    width: 18px;
+    height: 18px;
+    background: url("../Images/twitter.png");
+    background-size: cover;
+    border-radius: 2px;
+    display: inline-block;
+    margin-right: 3px;
+} 
+.technorati {
+     width: 18px;
+    height: 18px;
+    background: url("../Images/technorati.png");
+    background-size: cover;
+    border-radius: 2px;
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.head-second {
+    height: 38px;
+    width: 670px;
+    background: rgba( 45, 42, 49, 0.6);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 38px;
+    width: 400px;
+    padding-left: 12px;
+}
+.active {
+    border: 1px solid black;
+    background: linear-gradient(to top, #433a5e, #3e598d, #5183bd);
+    border-radius: 7px;
+     text-decoration: none;
+    color: #b7d7ee;
+    padding: 3px 17px;
+    font-size: 12px;
+}
+
+.menu-btn {
+    text-decoration: none;
+    color: #b7d7ee;
+    padding: 3px 17px;
+    font-size: 12px;
+}
+.menu-btn:hover {
+    border: 1px solid black;
+    background: linear-gradient(to top, #433a5e, #3e598d, #5183bd);
+    border-radius: 7px;
+}
+
+.head-third {
+    height: 140px;
+    width: 670px;
+/*    background: red;*/
+}
+
+.main {
+    width: 670px;
+    height: 500px;
+    background: yellow;
+    background: #413f44;
+    position: relative;
+}
+
+.line {
+    position: absolute;
+    border: 2px solid #3b3b3d;
+    width: 600px;
+    top: 200px;
+    left: 30px
+}
+
+.main-first {
+    width: 670px;
+    height: 196px;
+/*    background: red;*/
+}
+.main-first-head {
+    width: 670px;
+    height: 60px;
+/*    background: yellow;*/
+    display: inline-block;
+}
+.main-head-text {
+    color: #729dd0;
+    font-size: 22px;
+    margin-top: 22px;
+    margin-left: 30px;
+}
+.main-first-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 30px;
+    padding-left: 15px;
+}
+
+.main-first-column1 {
+    width: 180px;
+    height: 106px;
+    text-align: justify;
+/*    background: red;*/
+/*    border: 1px solid black;*/
+}
+h2 {
+    color: white;
+    font-size: 15px;
+    padding-bottom: 8px;
+    margin-top: 0px;
+}
+.number {
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    
+}
+.main-body-text {
+    font-size: 11px;
+    float: right;
+    color: #98a2ac;
+}
+
+
+.main-first-column2 {
+    width: 175px;
+    height: 106px;
+    text-align: justify;
+}
+.main-first-column3 {
+    width: 175px;
+    height: 106px;
+    text-align: justify;
+}
+
+.main-second {
+    width: 670px;
+    height: 274px;
+/*    background: grey;*/
+    display: flex;
+    flex-direction: row;
+}
+.main-second-left {
+    width: 400px;
+    height: 274px;
+/*    background: blue;*/
+    margin-left: 30px;
+    padding-right: 10px;
+}
+.main-second-left-h1 {
+    color: #729dd0;
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.main-columns {
+    display: flex;
+    flex-direction: row;
+}
+.apple {
+    width: 144px;
+    height: 144px;
+    box-shadow: 0 0 0 10px #343338;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 22px;
+    float: left;
+}
+.left-h1-text {
+    float: right;
+}
+.main-column-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-h1-italic {
+    font-style: italic;
+    color: #f6fbff;
+    font-size: 10px;
+/*    margin-top: 25px;*/
+    line-height: 0px;
+}
+.left-h1-normal {
+    color: #8c8885;;
+    font-size: 10px;
+}
+.btn-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.btn {
+    display: inline-block;
+    text-align: right;
+    padding: 7px 10px;
+    background: linear-gradient(to top, #28252c, #322f37);
+    cursor: pointer;
+    margin-top: -10px;
+    font-size: 12px;
+    color: #8c8885;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+.btn:hover {
+    background: linear-gradient(to top, #322f37, #28252c);
+}
+
+.main-second-right {
+    width: 185px;
+    height: 239px;
+    padding-left: 5px;
+/*    background: red;*/
+}
+
+.main-second-text {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: #729dd0;
+    font-size: 22px;
+}
+
+.main-second-right-text {
+    color: #8c8885;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.footer {
+    width: 670px;
+    height: 30px;
+/*    background: green;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.text-footer  {
+    font-size: 12px;
+    color: #4d2d69;
+}

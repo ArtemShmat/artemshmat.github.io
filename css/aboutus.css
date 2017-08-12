@@ -1,0 +1,408 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("../Images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    margin: auto;
+    width: 670px;
+    height: 758px;
+/*    background: red;*/
+    display: flex;
+    flex-direction: column;
+    
+}
+.head {
+    height: 258px;
+    width: 670px;
+/*    background: blue;*/
+    display: flex;
+    flex-direction: column;
+}
+.head-first {
+    height: 80px;
+    width: 670px;
+/*    background: grey;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 12px;
+}
+
+.first-logo {
+    width: 162px;
+    height: 35px;
+/*    background: green*/
+}
+.logo-text-big {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: white;
+    line-height: 2px;
+}
+.width {
+    font-weight: bold;
+}
+.logo-text-small {
+    text-transform: uppercase;
+    font-size: 11px;
+    color: white;
+    line-height: 2px;
+}
+
+.first-social {
+    width: 100px;
+    height: 19px;
+/*    background: green;*/
+    display: flex;
+    flex-direction: row;
+}
+.linknin {
+    width: 18px;
+    height: 18px;
+    background: url("../Images/linkedin.png");
+    background-size: cover;
+    border-radius: 2px;
+    display: inline-block;
+    margin-right: 3px;
+}
+.myspace {
+    width: 18px;
+    height: 18px;
+    background: url("../Images/myspace.png");
+    background-size: cover;
+    border-radius: 2px;
+    display: inline-block;
+    margin-right: 3px;
+}
+.facebook {
+    width: 18px;
+    height: 18px;
+    background: url("../Images/facebook.png");
+    background-size: cover;
+    border-radius: 2px;
+    display: inline-block;
+    margin-right: 3px;
+}
+.twiter {
+    width: 18px;
+    height: 18px;
+    background: url("../Images/twitter.png");
+    background-size: cover;
+    border-radius: 2px;
+    display: inline-block;
+    margin-right: 3px;
+} 
+.technorati {
+     width: 18px;
+    height: 18px;
+    background: url("../Images/technorati.png");
+    background-size: cover;
+    border-radius: 2px;
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.head-second {
+    height: 38px;
+    width: 670px;
+    background: rgba( 45, 42, 49, 0.6);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 38px;
+    width: 400px;
+    padding-left: 12px;
+}
+.active {
+    border: 1px solid black;
+    background: linear-gradient(to top, #433a5e, #3e598d, #5183bd);
+    border-radius: 7px;
+     text-decoration: none;
+    color: #b7d7ee;
+    padding: 3px 17px;
+    font-size: 12px;
+}
+
+.menu-btn {
+    text-decoration: none;
+    color: #b7d7ee;
+    padding: 3px 17px;
+    font-size: 12px;
+}
+.menu-btn:hover {
+    border: 1px solid black;
+    background: linear-gradient(to top, #433a5e, #3e598d, #5183bd);
+    border-radius: 7px;
+}
+
+.head-third {
+    height: 140px;
+    width: 670px;
+/*    background: red;*/
+}
+
+.main {
+    width: 700px;
+    height: 600px;
+    background: yellow;
+    background: #413f44;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.line {
+    position: absolute;
+    border: 1px solid #3b3b3d;
+    width: 370px;
+    top: 310px;
+    left: 21px;
+}
+.line1 {
+    position: absolute;
+    border: 1px solid #3b3b3d;
+    width: 190px;
+    top: 230px;
+    left: 450px
+}
+
+.main-left {
+    width: 415px;
+    height: 510px;
+/*    background: green;*/
+}
+
+.main-right {
+    height: 510px;
+    width: 285px;
+/*    background: red;*/
+}
+.main-right-1 {
+    width: 230px;
+    height: 350px;
+    margin-left: 20px;
+    margin-top: 30px;
+/*    background: silver;*/
+}
+
+
+
+.main-right-top {
+    width: 230px;
+    height: 30px;
+/*    background: black;*/
+}
+
+h2 {
+    font-size: 20px;
+    color: #729dd0; 
+    margin-bottom: 10px;
+}
+.main-right-body {
+    width: 200px;
+    height: 120px;
+/*    background: white;*/
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+/*
+.main-right-body {
+    width: 200px;
+    height: 108px;
+    background: green;
+    margin-left: 10px;
+}
+*/
+.main-right-footer {
+    width: 200px;
+    height: 120px;
+/*    background: green;*/
+    margin-left: 10px;
+    margin-top: 70px;
+}
+.right-body-text {
+    font-size: 12px;
+    text-align: justify;
+    color: #98a2ac;
+    font-style: italic;
+}
+.main-left-top {
+    width: 372px;
+    height: 252px;
+/*    background: red;*/
+    margin-top: 30px;
+    margin-left: 20px
+}
+.left-top-head {
+    width: 372px;
+    height: 65px;
+    margin-bottom: 5px;
+}
+.top-head-text {
+    font-style: italic;
+    color: white;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.left-top-body {
+    width: 372px;
+    height: 165px;
+/*    background: yellow;*/
+}
+.apple {
+     width: 90px;
+    height: 90px;
+    box-shadow: 0 0 0 10px #343338;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 22px;
+    margin-bottom: 15px;
+    float: left;
+}
+.top-body-text {
+    font-size: 11px;
+    text-align: justify;
+    color: #98a2ac;
+    
+}
+
+.left-top-footer {
+    width: 372px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.btn {
+    background: linear-gradient(to top, #28252c, #322f37);
+    color: #8c8885;
+    padding: 5px 7px;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 7px;
+}
+.btn:hover {
+    background: background: linear-gradient(to top, #322f37, #28252c);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-left-buttom {
+    width: 370px;
+    height: 115px;
+    margin-left: 20px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.parner1 {
+    width: 135px;
+    height: 40px;
+/*    background: white;*/
+/*
+    background: url(../Images/flashmog);
+    background-size: cover;
+    background-image: url(../Images/flashmo.png); 
+*/
+    margin-right: 10px;
+}
+
+.parner2 {
+    width: 200px;
+    height: 40px;
+/*    background: red;*/
+}
+
+.parner3 {
+    width: 135px;
+    height: 40px;
+/*    background: white;*/
+    margin-right: 10px;
+    margin-top: 20px;
+
+}
+.parner4 {
+    width: 200px;
+    height: 40px;
+/*    background: white;*/
+    margin-top: 20px;
+}
+
+.parter-logo {
+    color: #2e2f31;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.parter-logo:hover {
+    color: red;
+}
+
+span {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    width: 670px;
+    height: 30px;
+/*    background: green;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.text-footer  {
+    font-size: 12px;
+    color: #4d2d69;
+}
