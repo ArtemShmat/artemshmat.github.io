@@ -566,7 +566,7 @@ body {
 .box {
     width: 200px;
     height: 270px;
-    border: 1px solid #ebebeb;
+    border: 1px solid black;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
 }
@@ -1537,51 +1537,83 @@ a{
 /*
 */
 .home-1:hover .sub-menu-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .home-2:hover .sub-menu-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .home-3:hover .sub-menu-3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .home-4:hover .sub-menu-4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .products-1:hover .sub-menu-5 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .products-2:hover .sub-menu-6 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .products-3:hover .sub-menu-7 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .products-4:hover .sub-menu-8 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .about-1:hover .sub-menu-9 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .about-2:hover .sub-menu-10 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .about-3:hover .sub-menu-11 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .about-4:hover .sub-menu-12 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .contact-1:hover .sub-menu-13 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .contact-2:hover .sub-menu-14 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .contact-3:hover .sub-menu-15 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 .contact-4:hover .sub-menu-16 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -1608,9 +1640,16 @@ a{
 /*    opacity: 0.65;*/
      width: 185px;
     height: 177px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding-top: 15px;
     padding-bottom: 20px;
     padding-left: 30px;

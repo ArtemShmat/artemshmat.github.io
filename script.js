@@ -1,3 +1,4 @@
+//-----------------------------------------------------Появляючі вікна при наведенні в другому блоці-----------------------------------------------------
 $(document).ready(function(){
     $(".bag1").mouseenter(function(){
         $(".bag1-1").show(400);
@@ -29,17 +30,14 @@ $(document).ready(function(){
       $(".bag5").mouseleave(function(){
         $(".bag5-1").hide(400);
     });
-    
-//     --------------------Слайдер----------------------
+//-----------------------------------------------------Слайдер 1----------------------------------------------------------------------------------------
 			$(".slider").each(function() {
-
 				var repeats = 5, // кількість повторювань автоматичного прокручування
 						interval = 3, // інтервал в секундах
 						repeat = true, // чи треба автоматично прокручувати (true/false)
 						slider = $(this),
 						repeatCount = 0,
 						elements = $(slider).find("li").length;
-
 				$(slider)
 					.append("<div class='header-body-layer'><div class='nav'></div></div>")
 					.find("li").each(function() {
@@ -48,60 +46,46 @@ $(document).ready(function(){
 					})
 					.end()
 					.find("span").first().addClass("on");
-
-				// add timeout
-
 				if (repeat) {
 					repeat = setInterval(function() {
 						if (repeatCount >= repeats - 1) {
 							window.clearInterval(repeat);
 						}
-
 						var index = $(slider).find('.on').data("slide"),
 								nextIndex = index + 1 < elements ? index + 1 : 0;
-
 						sliderJS(nextIndex, slider);
-
 						repeatCount += 1;
 					}, interval * 1000);
 				}
-
 			});
 	
-
 	function sliderJS(index, slider) { // slide
 		var ul = $(slider).find("ul"),
 				bl = $(slider).find("li[data-slide=" + index + "]"),
 				step = $(bl).width();
-
 		$(slider)
 			.find("span").removeClass("on")
 			.end()
 			.find("span[data-slide=" + index + "]").addClass("on");
-
 		$(ul).animate({
 			marginLeft: "-" + step * index
 		}, 500);
 	}
-
 	$(document).on("click", ".slider .nav span", function(e) { // slider click navigate
 		e.preventDefault();
 		var slider = $(this).closest(".slider"),
 				index = $(this).data("slide");
-
 		sliderJS(index, slider);
 	});
     
-//     --------------------Слайдер----------------------
+//-----------------------------------------------------Слайдер 2----------------------------------------------------------------------------------------
     $(".slider1").each(function() {
-
 				var repeats = 5, // кількість повторювань автоматичного прокручування
 						interval = 3, // інтервал в секундах
 						repeat = true, // чи треба автоматично прокручувати (true/false)
 						slider = $(this),
 						repeatCount = 0,
 						elements = $(slider).find("li").length;
-
 				$(slider)
 					.append("<div class='nav'></div>")
 					.find("li").each(function() {
@@ -110,61 +94,37 @@ $(document).ready(function(){
 					})
 					.end()
 					.find("span").first().addClass("on");
-
-				// add timeout
-
 				if (repeat) {
 					repeat = setInterval(function() {
 						if (repeatCount >= repeats - 1) {
 							window.clearInterval(repeat);
 						}
-
 						var index = $(slider).find('.on').data("slide1"),
 								nextIndex = index + 1 < elements ? index + 1 : 0;
-
 						sliderJS(nextIndex, slider);
-
 						repeatCount += 1;
 					}, interval * 1000);
 				}
-
 			});
-	
-
 	function sliderJS(index, slider) { // slide
 		var ul = $(slider).find("ul"),
 				bl = $(slider).find("li[data-slide=" + index + "]"),
 				step = $(bl).width();
-
 		$(slider)
 			.find("span").removeClass("on")
 			.end()
 			.find("span[data-slide=" + index + "]").addClass("on");
-
 		$(ul).animate({
 			marginLeft: "-" + step * index
 		}, 500);
 	}
-
 	$(document).on("click", ".slider1 .nav span", function(e) { // slider click navigate
 		e.preventDefault();
 		var slider = $(this).closest(".slider1"),
 				index = $(this).data("slide");
-
 		sliderJS(index, slider);
 	});
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-//    -----------------------Анімація рейтингів------------------------------------  
+//-----------------------Анімація рейтингів----------------------------------------------------------------------------------------  
 var sc = 1900;
   	var delay = 1000;
 	$(window).scroll(function(){
@@ -201,23 +161,23 @@ var sc = 1900;
 			}, 2000, 'linear'),delay
     }		
 	})
- //    -----------------------показує і заберає значок пошуку------------------------------------------     
+ //-----------------------------------------------------------------показує і заберає значок пошуку------------------------------------------     
     $("#header-search").focusin(function() {
        $('.header-search-find').hide();
 });
 	$("#header-search").focusout(function() {
        $('.header-search-find').show();
 });
-//     -----------------------показує і заберає двойні стрілки в меню----------------------------------- 	
-    $('.sub-menu-a').mouseover(function(){
+//-----------------------------------------------------------------показує і заберає двойні стрілки в меню-----------------------------------
+    $('.qq', 'qw').mouseover(function(){
         $('.gg').show();
+        $('#ww').hide();
     })
     $('.sub-menu-a').mouseleave(function(){
         $('.gg').hide();
+        $('#ww').show();
     })
-	
-//	-------------------підсвітка меню при прокрутці-------------------------------------------
-	
+//-------------------------------------------------------------------підсвітка меню при прокрутці-------------------------------------------
      var sc1 = 100;
 	 var sc2 = 1100;
 	$(window).scroll(function(){
@@ -228,10 +188,6 @@ var sc = 1900;
             $('.corect11').css({'color':'black','font-weight':'normal'})
         }
 	})
-    
-    
-    
-    
     var sc3 = 1100;
 	 var sc4 = 1800;
 	$(window).scroll(function(){
@@ -242,8 +198,6 @@ var sc = 1900;
             $('.corect5').css({'color':'black','font-weight':'normal'})
         }
 	})
-    
-    
       var sc5 = 1800;
 	 var sc6 = 2600;
 	$(window).scroll(function(){
@@ -254,7 +208,6 @@ var sc = 1900;
             $('.corect12').css({'color':'black','font-weight':'normal'})
         }
 	})
-    
        var sc7 = 2600;
 	 var sc8 = 3600;
 	$(window).scroll(function(){
@@ -265,54 +218,16 @@ var sc = 1900;
             $('.corect13').css({'color':'black','font-weight':'normal'})
         }
 	})
-// -----------------------------------функція перевірки пустоти в полях--------------------------------   
+//-----------------------------------функція перевірки пустоти в полях--------------------------------   
     $('#send').click(function(){
         if($('#footer-form-text').val()== '' || $('#footer-form-text1').val()== '' || $('#footer-form-textarea').val()== ''){
             alert('Заповніть будь-ласка усі поля');
         }
     })
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-	
-	
-	
-	
-	
-	
-	
-	
-	
-//	
-//	
-//	
-//	 $(".menu-link").mouseenter(function(){
-//        $(".menu1").show(400);
-//    });
-//      $(".menu1").mouseleave(function(){
-//        $(".menu1").hide(400);
-//    });
-//	
-	
-	
-	
-	
-    
-    
-    
-    
-    
-    
-    
+//--------------------скрвпт для бургер-меню---------------------------------------------------------   
+    $(".burger-menu").click(function(){
+        $(".header-menu-list").toggleClass('header-menu-list-1');
+    });
+//----------------------------------------------------------------------------------------
+ 
 });
