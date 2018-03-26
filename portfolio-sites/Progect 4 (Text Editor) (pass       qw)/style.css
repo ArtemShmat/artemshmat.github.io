@@ -1,0 +1,492 @@
+body {
+	background-image: url(img/Lenovo-wallpaper-6_DcyKDyp.jpg);
+}
+.container {
+	width: 400px;
+	height: 1000px;
+	margin: auto;
+    z-index: 1;
+}
+#pHolder {
+    margin: auto;
+    width: 390px;
+	height: 400px;
+      overflow: scroll;
+padding-left: 10px;
+    box-sizing: border-box;
+}
+.lev1 {
+	width: 400px;
+	height: 400px;
+	background: green;
+	border: 3px solid white;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	color: white;
+	box-sizing: border-box;
+}
+.lev2 {
+	width: 400px;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;	
+}
+
+.button1 {
+	width: 90px;
+	height: 40px;
+	border-radius: 10px;
+}
+.lev3 {
+	width: 400px;
+	height: 400px;
+	background: blue;
+	border: 3px solid white;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-sizing: border-box;
+	position: relative;
+}
+.redag {
+	width: 350px;
+	height: 250px;
+	background: white;
+}
+.textarea {
+	width: 350px;
+	height: 250px;
+}
+.tex1 {
+	width: 350px;
+	height: 250px;
+}
+.buttnons {
+	width: 350px;
+	height: 50px;
+	margin-top: 10px;
+}
+.button2 {
+	width: 70px;
+	height: 30px;
+	border-radius: 10px;
+}
+.holder {
+	display: none;
+}
+.holder-show {
+	display: block;
+}
+.layer1 {
+	position: relative;
+	z-index: 1;
+    width: 400px;
+	height: 400px;
+	background: blue;
+	border: 3px solid white;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	box-sizing: border-box;
+	position: relative;
+    box-sizing: border-box;
+}
+.layer2 {
+	position: absolute;
+	z-index: 3;
+	background: blue;
+    width: 400px;
+	height: 400px;
+	border: 3px solid white;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+    box-sizing: border-box;
+    top: 0px;
+    left: 0px;
+    display: none;
+    color: white;
+}
+.layer2-show {
+    display: block;
+}
+.first {
+    width: 370px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.second {
+    width: 250px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     margin-bottom: 20px;
+}
+.third {
+    width: 200px;
+    line-height: 50px;
+     margin-bottom: 20px;
+}
+.four {
+     width: 220px;
+    line-height: 50px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+}
+.sel {
+    border-radius: 10px;
+    background-color: green;
+}
+.bat3 {
+    background: pink;
+    border-radius: 10px;
+}
+.firstSquare {
+    width: 156px;
+    height: 156px;
+    border: 1px solid black;
+    position: absolute;
+    top: 100px;
+    left: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+}
+.firstSquare-show {
+    display: flex;
+}
+.fS {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+.fS1 {
+    background: aqua;
+}
+.fS2 {
+    background-color: brown;
+}
+.fS3 {
+    background-color: palegreen;
+}
+.fS4 {
+    background-color: greenyellow;
+}
+.fS5 {
+    background-color: peachpuff;
+}
+.fS6 {
+    background-color: red;
+}
+.fS7 {
+    background-color: blue;
+}
+.fS8 {
+    background-color: violet;
+}
+.fS9 {
+    background-color: yellow;
+}
+.secondSquare {
+    width: 156px;
+    height: 156px;
+    border: 1px solid white;
+    position: absolute;
+    top: 100px;
+    left: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+}
+.secondSquare-show {
+    display: flex;
+}
+.sS {
+     width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
+.sS1 {
+    background: aqua;
+}
+.sS2 {
+    background-color: brown;
+}
+.sS3 {
+    background-color: palegreen;
+}
+.sS4 {
+    background-color: greenyellow;
+}
+.sS5 {
+    background-color: peachpuff;
+}
+.sS6 {
+    background-color: red;
+}
+.sS7 {
+    background-color: blue;
+}
+.sS8 {
+    background-color: violet;
+}
+.sS9 {
+    background-color: yellow;
+}
+.container-2 {
+    width: 420px;
+	height: 1000px;
+    background: blue;
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    display: none;
+    border: 3px solid green;
+    border-radius: 15px;
+    padding: 5px;    
+}
+.cont2-show {
+    display: flex;
+}
+.main-container {
+    position: relative;
+    margin: auto;
+     width: 420px;
+	height: 800px;
+}
+.Login {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 420px;
+	height: 900px;
+    background: blue;
+    z-index: 10;
+    border-radius: 15px;
+    border: 2px solid green;
+}
+.logPass {
+    width: 200px;
+    height: 130px;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    margin-left: -150px;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+.Login-close {
+    display: none;
+}
+.cont-2-first {
+    width: 420px;
+    height: 70px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.cont-2-second {
+    width: 420ps;
+    height: 20px;
+    color: white;
+}
+.cont-2-third {
+    width: 420px;
+    height: 710px;
+    position: relative;
+}
+.cont-2-third-1 {
+     width: 420px;
+    height: 710px;
+    position: relative;
+    z-index: 1;
+}
+.cont-2-third-2 {
+     width: 420px;
+    height: 710px;
+    background: blue;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+    display: none;
+}
+.cont-2-third-2-show {
+    display: flex;
+}
+.firstlayer {
+    width: 300px;
+    height: 45px;
+    margin-bottom: 30px;
+}
+.firstlayer1 {
+    width: 300px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    color: white;
+}
+#textRow {
+    width: 30px;
+    border-radius: 10px;
+}
+#textCol {
+     width: 30px;
+    border-radius: 10px;
+}
+.firstlayer2 {
+     width: 300px;
+    height: 20px;
+     display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+     color: white;
+}
+.tabText-1 {
+    padding: 0px;
+    margin: 2px;
+}
+.tabText-2 {
+    padding: 0px;
+    margin: 2px;
+}
+.secondlayer {
+     width: 400px;
+    height: 300px;
+    color: white;
+}
+.secondlayer1 {
+    width: 300px;
+    height: 20px;
+     display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+#textWrite {
+    width: 30px;
+    border-radius: 10px;
+}
+.tabText3 {
+     padding: 0px;
+    margin: 2px;
+    font-size: 14px;
+}
+.secondlayer2 {
+      width: 300px;
+    height: 20px;
+     display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+#colHeight {
+     width: 30px;
+    border-radius: 20px;
+}
+.secondlayer3 {
+      width: 400px;
+    height: 20px;
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+} 
+#colWeight {
+    width: 30px;
+    border-radius: 10px;
+}
+#selColor,
+#selType {
+    background: green;
+    border-radius: 10px;
+}
+#but {
+    border-radius: 10px;
+} 
+.li-first {
+    width: 300px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.li-second {
+     width: 300px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.butLi {
+    width: 110px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+.bulTab {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+.tabText4 {
+    margin: 0px;
+    padding: 0px;
+}
+#countList {
+     width: 30px;
+    border-radius: 10px;
+}
+#typeList {
+    background: green;
+    border-radius: 10px;
+}
+.tabText3,
+.tabText4 {
+    color: white;
+}
+#border1 {
+    width: 30px;
+}
+.wrong-Pass {
+    color: red;
+    display: none;
+}
+.wrongPass-show {
+    display: block;
+}

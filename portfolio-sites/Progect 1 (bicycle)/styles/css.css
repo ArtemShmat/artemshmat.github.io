@@ -1,0 +1,260 @@
+* {
+    padding: 0px;
+    margin: 0px;
+/*    background: #e1e1e1;*/
+}
+body {
+    background: #f9f9f9;
+}
+.container {
+    width: 1060px;
+    height: 950px;
+    margin: auto;
+    border-left: 1px solid #656363;
+    border-right: 1px solid #656363;
+    background: white;
+}
+
+.header {
+    width: 966px;
+    height: 170px;
+/*    background: green;*/
+    margin-left: 46px;
+    display: flex;
+    flex-direction: column;
+}
+.header-logo {
+    width: 966px;
+    height: 130px;
+/*    background: yellow;*/
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    
+}
+h1 {
+    font-size: 54px;
+    line-height: 44.72px;
+    font-family: "Myriad Pro", sans-serif;
+    margin-bottom: 17px;
+    margin-left: 0px;
+    font-weight: 500;
+    letter-spacing: -2.5px;
+}
+.header-manu {
+    width: 966px;
+    height: 40px;
+    background: linear-gradient(to top, #464545, #5c5c5c);
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+/*    background: linear-gradient(to top, #464545, #5c5c5c);*/
+} 
+
+.a-menu {
+    text-decoration: none;
+    list-style: none;    
+    font-size: 14.67px;
+    color: #ffffff;
+    padding: 10px 25.29px;
+    margin-right: 37px;
+    font-family: "OpenSans", sans-serif;
+}
+a:hover {
+    
+    background: linear-gradient(to top, #303030, #484848);
+}
+.active {
+    background: linear-gradient(to top, #303030, #484848);
+}
+
+main {
+/*    background: grey;*/
+    height: 680px;
+    width: 966px;
+    margin-left: 46px;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-left {
+    margin-top: 40px;
+/*    background: blue;*/
+    width: 240px;
+    height: 640px
+}
+
+.main-left-menu {
+    list-style: none;
+    width: 240px;
+    height: 240px;
+    argin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.left-menu-a {
+    font-size: 14px;
+    color: #656363;
+    padding: 11.5px 0px;
+    padding-left: 23px;
+    display: flex;
+    text-decoration: none;
+    font-family: "OpenSans", sans-serif;
+    border: 1px solid #98a2ac;
+    margin-bottom: -1px;
+   align-items: center;
+}
+.left-menu-a:hover {
+    padding-left: 38px;
+    background: #f9f9f9;
+}
+.main-active {
+    padding-left: 38px;
+    background: #f9f9f9;
+}
+/*
+.main-left-menu li:first-child,
+.main-left-menu li:nth-child(4) {
+    margin-bottom: -1px;
+}
+*/
+.main-right {
+    background: white;
+    width: 726px;
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+}
+.main-right-top {
+    width: 678px;
+    height: 400px;
+/*    background: blue;*/
+    margin-left: 48px;
+    margin-top: 40px;
+    border: 1px solid #c8c8c8;
+}
+
+.bicycle {
+    background-image: url(../Images/Untitled-1.jpg);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    margin-top: 47px;
+}
+.main-right-buttom {
+    width: 655px;
+    height: 165px;
+/*    background: blue;*/
+    margin-left: 48px;
+    margin-top: 35px;
+    padding-left: 24px;
+/*    padding-right: 20px;*/
+    box-sizing: border-box;
+}
+p {
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 13.33px;
+    line-height: 21.33px;
+    color: #2c2c2c;
+    letter-spacing: 0.69px;
+}
+footer {
+    margin: auto;
+    width: 966px;
+    height: 40px;
+    background: #e1e1e1;
+    display: flex;
+    flex-direction: row;
+}
+.footer-left {
+    width: 528px;
+    height: 40px;
+/*    background: yellow;*/
+    display: flex;
+    flex-direction: row;
+}
+.footer-menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 25px;
+    
+/*
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 25px;
+*/
+}
+.footer-menu-a {
+    margin-right: 95px;
+    text-decoration: none;
+    color: #2c2c2c;
+    font-size: 13.33px;
+    font-family: "Myriad Pro", sans-serif;
+     letter-spacing: 1px;
+}
+.footer-menu li:nth-child(1) {
+    margin-right: -4px;
+    letter-spacing: 1px;
+}
+.footer-menu li:nth-child(2) {
+    margin-right: -px;
+    letter-spacing: 1px;
+}
+.footer-menu li:nth-child(3) {
+    margin-right: -5px;
+    letter-spacing: 1px;
+}
+.footer-menu-a:hover {
+    text-decoration: underline;
+    background: none;
+}
+.footer-right {
+    height: 40px;
+    width: 438px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.footer-right-text {
+    margin-right: 24px;
+    color: #2c2c2c;
+    font-size: 13.33px;
+    font-family: "OpenSans", sans-serif;
+    letter-spacing: 0.17px;
+}
+.footer-active {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

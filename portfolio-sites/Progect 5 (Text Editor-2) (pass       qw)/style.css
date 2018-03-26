@@ -1,0 +1,562 @@
+.MainContainer {
+    width: auto;
+    height: 1000px;
+}
+.Login {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1300px;
+    height: 1000px;
+    background: white;
+    z-index: 19;
+}
+.Login-close {
+    display: none;
+}
+.logPass {
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    margin-top: -150px;
+    left: 50%;
+    margin-left: -150px;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.butEnter {
+     width: 70px;
+    height: 20px;
+    border-radius: 15px;
+    background: orange;
+    margin-right: 10px;
+     height: 30px;
+}
+#pass {
+    width: 100px;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+.textP {
+    margin: 0px;
+}
+.edit, 
+.bold,
+.italik,
+.u,
+.color1 {
+    width: 70px;
+    height: 20px;
+    border-radius: 15px;
+    background: orange;
+    margin-right: 10px;
+}
+.bag {
+    width: 100px;
+    height: 20px;
+    border-radius: 15px;
+    background: orange;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    background-color: aqua;
+    transition-duration: 1s;
+}
+.save,
+.createTable,
+.crateL {
+     width: 80px;
+    height: 40px;
+    border-radius: 15px;
+    background: orange;
+    margin-right: 10px;
+}
+#p {
+    width: auto;
+    padding: 0px;
+    margin: 0px;
+    height: 900px;
+   overflow: scroll;
+}
+.container {
+	width: 1300px;
+	height: 1000px;
+	background: silver;
+    position: relative;
+    z-index: 1;
+    margin: auto;
+}
+.layer-show {
+    display: block;
+}
+.container1 {
+	width: 1300px;
+	height: 100px;
+	background: linear-gradient(0deg, silver, white, silver);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.container2 {
+	width: 1300px;
+	height: 900px;
+	background: white;
+	position: relative;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+.cont-2-1 {
+    width: 1290px;
+	height: 800px;
+	background: white;
+	position: relative;	
+	z-index: 1;
+    box-sizing: border-box;
+}
+.p-bold {
+	font-weight: bold;
+} 
+.p-italic {
+	font-style: italic;
+}
+.p-underline {
+	text-decoration: underline;
+}
+.color {
+	width: 158px;
+	height: 156px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+    position: relative;
+    z-index: 11;
+}
+.colorMain {
+    width: 169px;
+	height: 166px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: absolute;
+	top: 10%;
+	left: 40%;
+    padding: 4px;
+    box-sizing: border-box;
+    display: none;
+    z-index: 11;
+}
+
+.col {
+	width: 50px;
+	height: 50px;
+	border: 1px solid white;
+}
+.col1 {
+    background-color: red;
+}
+.col11 {
+    color: red;
+}
+.col2 {
+    background-color: blue;
+}
+.col21 {
+    color: blue;
+}
+.col3 {
+    background-color: brown;
+}
+.col31 {
+    color: brown;
+}
+.col4 {
+    background-color: yellowgreen;
+}
+.col41 {
+    color: yellowgreen;
+}
+.col5 {
+    background-color: black;
+}
+.col51 {
+    color: black;
+}
+.col6 {
+    background-color: silver;
+}
+.col61 {
+    color: silver;
+}
+.col7 {
+    background-color: yellow;
+}
+.col71 {
+    color: yellow;
+}
+.col8 {
+    background-color: white;
+}
+.col81 {
+    color: white;
+}
+.col9 {
+    background-color: green;
+}
+.col91 {
+    color: green;
+}
+/*створення таблиці заднього фону-------------------------------------------*/
+.bagground { 
+width: 159px;
+	height: 156px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.bagMain {
+     width: 169px;
+	height: 206px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: absolute;
+	top: 10%;
+	left: 40%;
+    padding: 4px;
+    box-sizing: border-box;
+    display: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.bagMain-show {
+    display: block;
+}
+#bagImage {
+    width: 110px;
+    height: 40px;
+    border-radius: 15px;
+    background: orange;
+}
+/*таблиця картинок заднього фону--------------------------------------------------------------*/
+.bagFon {
+      width: 495px;
+	height: 226px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: absolute;
+	top: 10%;
+	left: 30%;
+    padding: 0px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    display: none;
+}
+.bagFon-show {
+    display: block;
+}
+#bagColor {
+    width: 90px;
+    height: 40px;
+    border-radius: 15px;
+    background: orange;
+}
+.baggroundI {
+    width: 490px;
+	height: 156px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.BI {
+    width: 160.5px;
+	height: 50px;
+	border: 1px solid white;
+}
+.BI1 {
+    background-image: url(Images/1.jpg);
+    background-size: cover;
+}
+.BI2 {
+     background-image: url(Images/2.jpg);
+    background-size: cover;
+}
+.BI3 {
+     background-image: url(Images/3.jpg);
+    background-size: cover;
+}
+.BI4 {
+     background-image: url(Images/4.jpg);
+    background-size: cover;
+}
+.BI5 {
+     background-image: url(Images/5.jpg);
+    background-size: cover;
+}
+.BI6 {
+     background-image: url(Images/6.jpg);
+    background-size: cover;
+}
+.BI7 {
+     background-image: url(Images/7.jpg);
+    background-size: cover;
+}
+.BI8 {
+     background-image: url(Images/8.jpg);
+    background-size: cover;
+}
+.BI9 {
+     background-image: url(Images/9.jpg);
+    background-size: cover;
+}
+
+.ggg {
+	border: 1px solid red;
+	border-collapse: collapse;
+}
+.firstTabShow {
+	display: flex;
+    position: relative;
+    z-index: 10;
+}
+.bgContainer {
+	width: 280px;
+	height: 180px;
+	background: white;
+	margin: auto;
+}
+.cont-2-2 {
+	width: 1000px;
+	height: 800px;
+	background: white;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 3;
+    display: none;
+}
+#tA {
+	width: 1280px;
+	height: 500px;
+    position: relative;
+    z-index: 15;
+}
+.g {
+	width: 300px;
+	height: 300px;
+	background: grey;
+}
+#size {
+     width: 60px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: skyblue;
+    margin-right: 10px;
+}
+#font {
+    width: 140px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: skyblue;
+    margin-right: 10px;
+}
+.cont-2-2-show {
+	display: block;
+}
+.newContainer1 {
+    width: 1300px;
+    height: 1000px;
+    background: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 9;
+    display: none;
+}
+.newContainer1-show {
+    display: block;
+}
+.contHead {
+    width: 1300px;
+	height: 100px;
+	background: silver;
+    background: linear-gradient(0deg, silver, white, silver);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.contBody {
+    width: 1300px;
+	height: 900px;
+	background: white;
+	position: relative;
+    border: 2px solid black;
+    position: relative;
+    box-sizing: border-box;
+}
+.boxTable {
+    width: 420px;
+    height: 200px;
+    background: white;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-left: -200px;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: none;
+    z-index: 20;
+}
+.boxTableS {
+    display: flex;
+}
+
+.tab {
+    width: 196px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+}
+#row,
+#col,
+#weight,
+#height,
+#Cellspasing,
+#text,
+#border,
+#borderColor {
+    width: 30px;
+}
+.create,
+.reset {
+    width: 70px;
+    height: 25px;
+}
+.cList {
+    width: 280px;
+    height: 170px;
+    position: absolute;
+    background-color: white;
+    top: 10%;
+    left: 50%;
+    margin-left: -140px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border: 1px solid black;
+    display: none;
+    z-index: 15;
+} 
+.cList2 {
+     width: 280px;
+    height: 170px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-left: -140px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border: 1px solid black;
+    display: none;
+    z-index: 15;
+    background-color: white;
+}
+.cList-show {
+    display: block;
+}
+.createList-show {
+    display: block;
+}
+
+.item {
+    width: 250px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.clist,
+.clist2 {
+    width: 30px;
+}
+.item4 {
+    width: 250px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+     flex-direction: row;
+    align-items: center;
+     margin: auto;
+}
+.layout,
+.layout1,
+.layout2{
+    width: 1300px;
+    height: 1000px;
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 9;
+    display: none;
+}
+.layout-show {
+    display: flex;
+}
+.olOrUl {
+    width: 150px;
+    height: 50px;
+    background: white;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-left: -100px;
+    z-index: 23;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.olOrUl-show {
+    display: flex;
+}
+.ul,
+.ol {
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: orange;
+    margin: 20px;
+}
+.cList2-show {
+    display: block;
+}
+.wrong-Pass {
+    color: red;
+    display: none;
+}
+.wrongPass-show {
+    display: block;
+}
